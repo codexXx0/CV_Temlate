@@ -5,6 +5,13 @@ body {
     font-weight: bold;
     scroll-behavior: smooth;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
 .main {
     position: relative;
     height: 100vh;
@@ -35,5 +42,65 @@ body {
     left: 0;
     background-color: white;
     box-shadow: 0 0 20px ;
+    text-align: center;
 }
-
+.main .sidebar .allah {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.main .sidebar .profpic {
+    box-sizing: border-box;
+}
+.main .sidebar .profpic img {
+    max-width: 90%;
+    box-shadow: 0 0 10px black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    animation: lightshadow 3s infinite ;
+}
+@keyframes lightshadow {
+    0% {
+        box-shadow: 0 0 10px black;
+    }
+    50% {
+        box-shadow: 0 0 20px rgb(6, 113, 228);
+    }
+    100% {
+        box-shadow: 0 0 10px black;
+    }
+}
+.main .sidebar .devname {
+    padding:0 10px;
+    padding-bottom: 10px ;
+    font-size: 30px;
+    font-weight: 800;
+}
+.main .sidebar .job {
+    color: #3a3a3a;
+}
+.sidebar .contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar .contact ul li {
+    margin: 10px;
+}
+.sidebar .contact ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 255, 255) ;
+    background-color: #000000;
+}
+.sidebar .contact ul li a i {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
