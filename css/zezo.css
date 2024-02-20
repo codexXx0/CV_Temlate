@@ -103,15 +103,16 @@ ul li {
 }
 .sidebar .contact ul li .face {
     background-color: #3b3b3b;
+    box-shadow: 0 0 1px black;
 }
 .sidebar .contact ul li .insta {
     background-color: #3b3b3b;
     background: linear-gradient(0deg, #3b3b3b 0%,#3b3b3b 100%); 
     box-shadow: 0 0 1px black;
-    transition: 0.3s ease;
 }
 .sidebar .contact ul li .lin {
     background-color: #3b3b3b;
+    box-shadow: 0 0 1px black;
 }
 .sidebar .contact ul li a i {
     position: relative;
