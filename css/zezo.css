@@ -89,6 +89,7 @@ ul li {
 }
 .sidebar .contact ul li {
     margin: 10px;
+    margin: 20px 10px ;
 }
 .sidebar .contact ul li a {
     position: relative;
@@ -96,11 +97,12 @@ ul li {
     width: 40px;
     height: 40px;
     color: rgb(255, 255, 255) ;
-    background-color: #000000;
+    background-color: #3b3b3b;
+    transition: 0.3s ease;
 }
 .sidebar .contact ul li a i {
     position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translatey(-50%);
+    transition: 0.3s ease;
 }
